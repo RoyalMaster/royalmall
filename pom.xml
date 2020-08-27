@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.royal.royalmall</groupId>
+    <artifactId>backstage</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>backstage</name>
+    <description>后台管理父项目</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>backstage-coupon</module>
+        <module>backstage-order</module>
+        <module>backstage-product</module>
+        <module>backstage-storage</module>
+        <module>backstage-user</module>
+    </modules>
+
+</project>
