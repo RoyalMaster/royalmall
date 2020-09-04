@@ -1,0 +1,14 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: coupon-server
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.3.239:3306/royalmall_sms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto

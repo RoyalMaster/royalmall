@@ -1,0 +1,16 @@
+server:
+  port: 9030
+spring:
+  application:
+    name: product-server
+  datasource:
+    username: root
+    password: root
+#    url: jdbc:mysql://192.168.3.243:3306/royalmall_pms
+    url: jdbc:mysql://192.168.3.239:3306/royalmall_pms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  #config-location: classpath:/mapper/**/*.xml #指定mapper映射文件
+  global-config:
+    db-config:
+      id-type: auto #配置主键自增

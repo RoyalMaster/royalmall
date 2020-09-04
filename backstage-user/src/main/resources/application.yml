@@ -1,0 +1,14 @@
+server:
+  port: 9050
+spring:
+  application:
+    name: user-server
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.1.9:3306/royalmall_ums
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
